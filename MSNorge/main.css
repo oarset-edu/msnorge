@@ -98,11 +98,9 @@
 }
 
 #foredrag{
-    background-color: #EF8336;
-    color: white;
-    font-size: 4vw;
-    vertical-align: central;
-    text-align: center;
+    
+    width:inherit;
+    height:inherit;
 }
 
 #motivate{
