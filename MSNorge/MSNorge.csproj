@@ -65,8 +65,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\Steinar_side.jpg" />
+    <Content Include="Steinar.aspx" />
+    <Content Include="img\Fra_motgang_til_Nordkapp_side.jpg" />
+    <Content Include="Nordkapp.aspx" />
+    <Content Include="Bildeblogg.aspx" />
+    <Content Include="Foredrag.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="img\Bildeblogg_markert.jpg" />
+    <Content Include="img\Bildeblogg_side.jpg" />
     <Content Include="img\Bildeblogg_umarkert.jpg" />
     <Content Include="img\contact_icon.png" />
     <Content Include="img\contact_icon2.png" />
@@ -75,8 +82,9 @@
     <Content Include="img\fb_icon2.png" />
     <Content Include="img\fb_icon2_circle.png" />
     <Content Include="img\Foredrag_markert.jpg" />
+    <Content Include="img\Foredrag_side.jpg" />
     <Content Include="img\Foredrag_umarkert.jpg" />
-    <Content Include="img\Fra motgang til Nordkapp_markert.jpg" />
+    <Content Include="img\Fra_motgang_til_Nordkapp_markert.jpg" />
     <Content Include="img\Fra_motgang_til_Nordkapp_umarkert.jpg" />
     <Content Include="img\home2.png" />
     <Content Include="img\insta_icon.png" />
@@ -100,6 +108,34 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Steinar.aspx.cs">
+      <DependentUpon>Steinar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Steinar.aspx.designer.cs">
+      <DependentUpon>Steinar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nordkapp.aspx.cs">
+      <DependentUpon>Nordkapp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nordkapp.aspx.designer.cs">
+      <DependentUpon>Nordkapp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bildeblogg.aspx.cs">
+      <DependentUpon>Bildeblogg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bildeblogg.aspx.designer.cs">
+      <DependentUpon>Bildeblogg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Foredrag.aspx.cs">
+      <DependentUpon>Foredrag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Foredrag.aspx.designer.cs">
+      <DependentUpon>Foredrag.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
