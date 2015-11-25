@@ -66,12 +66,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="img\Bildeblogg_markert.jpg" />
+    <Content Include="img\Bildeblogg_umarkert.jpg" />
     <Content Include="img\contact_icon.png" />
     <Content Include="img\contact_icon2.png" />
     <Content Include="img\fb_hover.png" />
     <Content Include="img\fb_icon.png" />
     <Content Include="img\fb_icon2.png" />
     <Content Include="img\fb_icon2_circle.png" />
+    <Content Include="img\Foredrag_markert.jpg" />
+    <Content Include="img\Foredrag_umarkert.jpg" />
+    <Content Include="img\Fra motgang til Nordkapp_markert.jpg" />
+    <Content Include="img\Fra_motgang_til_Nordkapp_umarkert.jpg" />
     <Content Include="img\home2.png" />
     <Content Include="img\insta_icon.png" />
     <Content Include="img\insta_icon2.png" />
@@ -80,10 +86,13 @@
     <Content Include="img\motivate2.JPG" />
     <Content Include="img\msnorge_front.png" />
     <Content Include="img\msnorge_front1920.png" />
+    <Content Include="img\MSNORGE_profil_Hoved.png" />
     <Content Include="img\nature.JPG" />
     <Content Include="img\nordkapp2.JPG" />
     <Content Include="img\nordkapp3.JPG" />
     <Content Include="img\promobilde.png" />
+    <Content Include="img\Steinar_markert.jpg" />
+    <Content Include="img\Steinar_umarkert.jpg" />
     <Content Include="index.html" />
     <Content Include="main.css" />
     <Content Include="img\nordkapp.JPG" />

@@ -34,14 +34,25 @@
 }
 
 #menu{
-    position: absolute;
-    top: 3px; 
+    position: fixed;
+    top: 0px; 
     left: 3px; 
-    height: 54px;
-    width: 180px;
+    height: 100px;
+    width: 100%;
     z-index: 10;
-   
-    border-radius: 27px;
+    
+    
+
+}
+
+#header{
+    position: fixed;
+    top: 0px; 
+    left: 3px; 
+    height: 95px;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
 }
 
 #hovedbilde{
@@ -52,27 +63,27 @@
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     margin-left: 5px;
-    margin-top: 2px;
+    margin-top: 10px;
 }
 
 
 #fb{
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     
     background:transparent url(img\fb_icon2.png) center top no-repeat;
 }
 
 #fb:hover{
     
-    background-image: url(img\fb_hover.png);
+    
 }
 
 #block_items{
-    width: 99%;
+    width: 94%;
     height: 332px;
     z-index: 12;
     margin-left: auto;
@@ -81,15 +92,16 @@
 
 .block{
     float: left;
-    width: 24vw;
-    height: 16vw;
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-bottom: 2px;
+    width: 44vw;
+    height: 30vw;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     
 }
 
-#video{
+#blogg{
     width:inherit;
     height:inherit;
 }
@@ -108,5 +120,8 @@
 #nature{
     width:inherit;
     height:inherit;
+}
+a{
+    font-style: normal;
 }
 
